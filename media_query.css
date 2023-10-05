@@ -1,0 +1,45 @@
+@media (width < 620px) {
+    footer {
+      flex-direction: column;
+    }
+  
+    footer.bottom {
+      gap: 16px;
+      flex-direction: column-reverse;
+    }
+  }
+  
+ 
+  
+  @media (width >=620px) {
+    footer {
+      margin: 0 auto;
+      max-width: 600px;
+      padding: 0;
+    }
+  }
+  
+
+
+  @media (width < 420px) {
+    footer {
+      text-align: center;
+      align-items: center;
+    }
+  
+    footer.top .links {
+      grid-template-columns: 1fr;
+    }
+  
+    footer.bottom {
+      align-items: center;
+    }
+  
+    .legal>span {
+      display: block;
+      margin-right: 0;
+      margin-bottom: 2px;
+    }
+  }
+  
+  
